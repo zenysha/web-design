@@ -1,15 +1,50 @@
-<form action="/burger">
-    <h1>
-        Race Registration
-    </h1>
-    <p>
-        <label for="first.name">First Name</label>
-        <input type="text" name="firstname" id="first.name">
-        <label for="last.name">Last Name</label>
-        <input type="text" name="lastname" id="last.name>">
-    </p>
-    <p>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+</head>
 
-    </p>
-</form>
+<body>
+    <h1>Race Registration!</h1>
+    <form action="/lama">
+        <label for="first">First Name</label>
+        <input type="text" name="firstname" id="first">
+        <label for="last">Last Name</label>
+        <input type="text" name="lastname" id="last">
+
+        <p>
+        <p>Select a Race:</p>
+        <input type="radio" name="run" id="fun">
+        <label for="fun">Fun Run 5k</label><br>
+        <input type="radio" name="run" id="half">
+        <label for="half"> Half Marathon</label><br>
+        <input type="radio" name="run" id="full">
+        <label for="full">Full Marathon</label><br>
+        </p>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass">
+        </div>
+        <p>
+            <label for="group">Select Age Group:</label>
+            <select name="age" id="group">
+                <option value="u-18">Under 18</option>
+                <option value="eighteen">18-30</option>
+                <option value="thirty">30-50</option>
+                <option value="fiifty+">50+</option>
+            </select>
+        <p><button>Register</button>
+        </p>
+        </p>
+
+    </form>
+
+</body>
+
+</html>

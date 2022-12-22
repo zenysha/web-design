@@ -1,0 +1,40 @@
+p {
+    color: #ffafcc;
+}
+
+form label {
+    color: #cdb4db;
+}
+
+body {
+    background-color: #c8e7ff;
+}
+
+h1 {
+    color: #deaaff;
+}
+
+button {
+    background-color: #c8e7ff;
+    color: #7209b7;
+
+}
+
+h1+form {
+    background-color: #ffafcc;
+}
+
+form>button {
+    background-color: #ffafcc;
+}
+
+a {
+    color: #7209b7;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+input[type="text"] {
+    color: #deaaff;
+}

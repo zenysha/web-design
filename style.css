@@ -1,0 +1,58 @@
+h1 {
+    color: rgb(30, 69, 56);
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Arial Narrow;
+}
+
+h2 {
+    color: rgb(33, 92, 72);
+    font-weight: 600;
+    text-decoration: rgb(59, 111, 59) underline;
+    font-size: 30px;
+    font-family: Arial Narrow;
+}
+
+h3 {
+    color: rgb(28, 61, 50);
+    font-family: Arial Narrow;
+}
+
+button {
+    background-color: rgb(149, 220, 196);
+    color: rgb(43, 72, 43);
+    font-family: Arial Narrow, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    color: rgb(14, 55, 50);
+    line-height: 1.5;
+    font-family: Arial Narrow, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(33, 92, 72)
+}
+
+h1,
+h2 {
+    color: rgb(5, 36, 22);
+}
+
+body {
+    background-color: rgb(165, 212, 200);
+}
+
+#submit {
+    background-color: rgb(197, 229, 219);
+}
+
+.sign {
+    color: rgb(15, 27, 25);
+    font-family: arial narrow;
+    text-decoration-style: uppercase;
+}

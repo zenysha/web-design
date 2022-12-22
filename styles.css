@@ -25,7 +25,8 @@ h1+form {
 }
 
 form>button {
-    background-color: #ffafcc;
+    background-color: #780e35;
+    color: white;
 }
 
 a {
@@ -35,6 +36,6 @@ a {
     padding: 10px;
 }
 
-input[type="text"] {
+input [type="text"] {
     color: #deaaff;
 }

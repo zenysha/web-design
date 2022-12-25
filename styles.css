@@ -1,0 +1,74 @@
+p {
+    color: #ffafcc;
+    width: 400px;
+    height: 100px;
+    background-color: #93254d;
+
+}
+
+form label {
+    color: #cdb4db;
+}
+
+body {
+    background-color: #c8e7ff;
+}
+
+h1,
+/*dont use important*/
+h2 {
+    color: #deaaff !important;
+}
+
+h1 {
+    color: #b498c6;
+    background-color: #93254d;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: #c8e7ff;
+    color: #7209b7;
+
+}
+
+h1+form {
+    background-color: #ffafcc;
+}
+
+form>button {
+    background-color: rgb(102, 15, 15);
+    color: white;
+    font-size: small;
+}
+
+a {
+    color: #7209b7;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+/*doesnt work*/
+input [type="text"] {
+    color: #deaaff;
+}
+
+button:hover {
+    background-color: rgb(124, 130, 173);
+}
+
+a:hover {
+    text-decoration: purple underline;
+}
+
+button:active {
+    color: aqua;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p

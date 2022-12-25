@@ -10,9 +10,20 @@ h1 {
 h2 {
     color: rgb(33, 92, 72);
     font-weight: 600;
-    text-decoration: rgb(59, 111, 59) underline;
-    font-size: 30px;
+    text-decoration: rgb(120, 67, 138) underline;
+
     font-family: Arial Narrow;
+}
+
+h1,
+h2 {
+    color: rgb(5, 36, 22);
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: #461b61;
+    border-radius: 10px;
+    color: #deaaff !important;
 }
 
 h3 {
@@ -20,31 +31,46 @@ h3 {
     font-family: Arial Narrow;
 }
 
+body {
+    font-size: 20px;
+
+}
+
 button {
     background-color: rgb(149, 220, 196);
-    color: rgb(43, 72, 43);
+    color: rgb(79, 38, 109);
     font-family: Arial Narrow, sans-serif;
-    font-size: 20px;
+
 }
 
 p {
-    color: rgb(14, 55, 50);
+    background-color: rgba(143, 93, 179, 0.8);
     line-height: 1.5;
     font-family: Arial Narrow, sans-serif;
+    padding: 5px 10px 5px 10px;
+    margin: 30px;
+    color: #000000;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    margin: 20px;
+
 }
 
 a {
     text-decoration: none;
-    color: rgb(33, 92, 72)
+    color: rgb(130, 88, 160)
 }
 
-h1,
-h2 {
-    color: rgb(5, 36, 22);
+a:hover {
+    text-decoration: underline;
 }
+
+
 
 body {
     background-color: rgb(165, 212, 200);
+    margin: 0px;
 }
 
 #submit {
@@ -54,5 +80,14 @@ body {
 .sign {
     color: rgb(15, 27, 25);
     font-family: arial narrow;
-    text-decoration-style: uppercase;
+}
+
+body {
+    background-color: #c8e7ff;
+}
+
+#gallus {
+    border-radius: 50%;
+    border-color: rgb(14, 55, 50) border-style: solid;
+    border-width: 1px;
 }

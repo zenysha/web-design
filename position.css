@@ -1,3 +1,26 @@
+button {
+
+    background-color: #917b9e;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 20px;
+
+}
+
+body {
+    font-size: 20px;
+    background-color: rgb(165, 212, 200);
+    margin: 0px auto;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+button:hover {
+    color: #4b1d68;
+    background-color: white;
+}
+
 #circle {
     width: 300px;
     height: 300px;
@@ -40,17 +63,9 @@ div:nth-of-type(4) {
     transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-body {
-    font-size: 20px;
-    background-color: rgb(165, 212, 200);
-    margin: 0px auto;
-
-}
 
 h1:nth-of-type(1) {
     background-color: #fb8500;
-    transform: rotate(45deg);
-
 }
 
 h1:nth-of-type(2) {
@@ -59,12 +74,10 @@ h1:nth-of-type(2) {
 
 h1:nth-of-type(3) {
     background-color: #023047;
-
 }
 
 h1:nth-of-type(4) {
     background-color: #219ebc;
-
 }
 
 h1 {
@@ -75,4 +88,17 @@ h1 {
     color: white;
     margin: 10px auto;
     border: solid black 2px;
+}
+
+/* section:first-of-type h1:nth-of-type(1) {
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+section:first-of-type h1:nth-of-type(2) {
+    transform: scale(2);
+} */
+
+section:nth-of-type(2) h1:nth-of-type(3) {
+    transform: scale(0.7) translateX(500px);
 }

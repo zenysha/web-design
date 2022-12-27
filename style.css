@@ -52,17 +52,20 @@ p {
     border-style: solid;
     border-color: aqua;
     border-radius: 5px;
-    margin: 20px auto;
+    margin: 20px;
+    width: 30%;
+
 
 }
 
 a {
     text-decoration: none;
-    color: rgb(130, 88, 160)
+    color: rgb(124, 0, 213)
 }
 
 a:hover {
     text-decoration: underline;
+    color: #4b1d68;
 }
 
 #submit {

@@ -181,7 +181,7 @@ body {
 }
 
 .pricing-header {
-    color: #888;
+    color: rgb(145, 123, 139);
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -240,4 +240,15 @@ body {
         flex-direction: row;
         border-radius: 10px;
     }
+
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #ffe1e1;
+        padding: 25px 50px;
+    }
+
+    .pricing-plan:nth-child(3) {
+        border-right: none;
+    }
+
 }

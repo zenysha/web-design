@@ -1,9 +1,24 @@
 p {
     color: #ffafcc;
     width: 400px;
-    height: 100px;
-    background-color: #93254d;
 
+    background-color: #93254d;
+    border-color: #7209b7;
+    border-width: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+#lorem {
+    width: 400px;
+
+    padding-bottom: 10;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #7209b7;
+    border-radius: 20px;
 }
 
 form label {

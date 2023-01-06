@@ -1,6 +1,6 @@
 h1 {
     color: rgb(30, 69, 56);
-
+    background-color: #9261b0;
     text-align: center;
     font-weight: bold;
     font-size: 50px;
@@ -8,11 +8,18 @@ h1 {
 }
 
 h2 {
-    color: rgb(33, 92, 72);
+    color: rgb(84, 25, 87) !important;
     font-weight: 600;
-    text-decoration: rgb(59, 111, 59) underline;
-    font-size: 30px;
+    text-decoration: rgb(105, 33, 129) underline;
     font-family: Arial Narrow;
+}
+
+h1,
+h2 {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    padding: 20px;
+
 }
 
 h3 {
@@ -20,32 +27,50 @@ h3 {
     font-family: Arial Narrow;
 }
 
-button {
-    background-color: rgb(149, 220, 196);
-    color: rgb(43, 72, 43);
-    font-family: Arial Narrow, sans-serif;
+body {
     font-size: 20px;
+    background-color: rgb(165, 212, 200);
+    margin: 0;
+
 }
 
+
+
 p {
-    color: rgb(14, 55, 50);
-    line-height: 1.5;
+    background-color: rgba(143, 93, 179, 0.8);
+    width: 80%;
+    text-align: center;
     font-family: Arial Narrow, sans-serif;
+    padding: 1em 1em;
+    margin-left: 0;
+    color: #000000;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    margin: 20px auto;
 }
 
 a {
     text-decoration: none;
-    color: rgb(33, 92, 72)
 }
 
-h1,
-h2 {
-    color: rgb(5, 36, 22);
+button {
+    text-decoration: none;
+    color: rgb(124, 0, 213);
+    border: none;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    border: solid white 1px;
+    border-radius: 20px;
 }
 
-body {
-    background-color: rgb(165, 212, 200);
+button:hover {
+
+    background-color: #d8c1e6;
 }
+
+
+
 
 #submit {
     background-color: rgb(197, 229, 219);
@@ -54,5 +79,45 @@ body {
 .sign {
     color: rgb(15, 27, 25);
     font-family: arial narrow;
-    text-decoration-style: uppercase;
+}
+
+#gallus {
+    border-radius: 50%;
+    border-color: rgb(14, 55, 50) border-style: solid;
+    border-width: 1px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #deaaff;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 120px;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 10px;
+}
+
+#fixed #middle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #4b1d68
+}
+
+.transform {
+    background-color: #000000;
 }

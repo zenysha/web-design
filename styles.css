@@ -1,15 +1,7 @@
 p {
     color: #ffafcc;
-<<<<<<< HEAD
-    width: 400px;
-=======
-
-    ;
-    background-color: #93254d;
->>>>>>> 7b56da4fb2fc68d8bb742214c1de197fc64cbc6d
-
-    background-color: #93254d;
-    border-color: #7209b7;
+    background-color: #D4AFB9;
+    border-color: #D1CFE2;
     border-width: 5px;
     border-style: solid;
     box-sizing: border-box;
@@ -19,7 +11,6 @@ p {
 
 #lorem {
     width: 400px;
-
     padding-bottom: 10;
     border-style: dotted;
     border-width: 10px;

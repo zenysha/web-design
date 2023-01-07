@@ -17,13 +17,24 @@ button {
 
 }
 
+button.hover {
+    margin: 0 10px;
+
+}
+
 button:hover {
     border-color: #f1ff5c;
-    color: white;
+    color: white !important;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translateY(-0.25em);
     cursor: pointer;
+}
 
+a {
+    text-decoration: none;
+    color: #ffa260;
+}
 
-
+a:hover {
+    color: white;
 }

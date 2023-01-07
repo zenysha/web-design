@@ -13,26 +13,3 @@ nav {
     font-size: 1.5em;
     font-weight: 800;
 }
-
-body {
-    background-color: #f7f7f3;
-
-}
-
-button {
-    background-color: #d8e2dc;
-    border: none;
-    padding: 0 1em;
-    border-radius: 50px;
-    font-family: roboto, sans serif;
-    margin: 3% 3%;
-}
-
-button:hover {
-    background-color: #d8e2dc9f;
-    color: #717163;
-}
-
-a {
-    text-decoration: none;
-}

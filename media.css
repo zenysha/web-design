@@ -87,3 +87,7 @@ a {
 a:hover {
     text-decoration: #264653 underline;
 }
+
+a:hover {
+    text-decoration: none;
+}

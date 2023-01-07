@@ -1,6 +1,6 @@
 h1 {
-    color: rgb(30, 69, 56);
-    background-color: #9261b0;
+    color: white;
+    background-color: #9CADCE;
     text-align: center;
     font-weight: bold;
     font-size: 50px;
@@ -29,15 +29,16 @@ h3 {
 
 body {
     font-size: 20px;
-    background-color: rgb(165, 212, 200);
-    margin: 0;
+    background-color: #e3e2ed;
+    margin: 0 20%;
 
 }
 
 
 
-p {
-    background-color: rgba(143, 93, 179, 0.8);
+p.index {
+    border-color: #D1CFE2;
+    background-color: #D1CFE2;
     width: 80%;
     text-align: center;
     font-family: Arial Narrow, sans-serif;
@@ -45,7 +46,6 @@ p {
     margin-left: 0;
     color: #000000;
     border-style: solid;
-    border-color: aqua;
     border-radius: 5px;
     margin: 20px auto;
 }
@@ -120,4 +120,9 @@ div {
 
 .transform {
     background-color: #000000;
+}
+
+.reg {
+    background-color: #e3e2ed;
+    border: none;
 }
